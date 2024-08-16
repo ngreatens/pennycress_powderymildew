@@ -22,15 +22,16 @@ for file in *fasta; do bioawk -c fastx '{print ">"$name"\n"$seq}' $file > $(base
 for file in *fna; do muscle -align $file -output $(basename $file _nocomments.fna)_aligned.fasta; done
 ```
 
+* manually edit seqs as needed to correct for obvious misalignments
+* also replace gaps in our ITS, LSU segment with ?s
+* also trim alignments where only one sequence has data
 *  concat aligned seqs 
 
 ```
 cat *aligned.fasta >> alignment.fasta
 ```
 
-* manually edit seqs as needed to correct for obvious misalignments
-* also replace gaps in our ITS, LSU segment with ?s
-* also trim alignments where only one sequence has data
+
 
 
 ## in r studio
