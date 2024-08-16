@@ -28,15 +28,17 @@ for file in *fna; do muscle -align $file -output $(basename $file _nocomments.fn
 cat *aligned.fasta >> alignment.fasta
 ```
 
-* manually edit seqs as needed to correct for obvious misalignments, especially near end of file. uncorrected and corrected alignments will be available in github.
+* manually edit seqs as needed to correct for obvious misalignments
 * also replace gaps in our ITS, LSU segment with ?s
 * also trim alignments where only one sequence has data
+
 
 ## in r studio
 
 run alignment through custom r script (concat.r) to: 
 * change dashes to ?s when on beginning or end of sequences. Doesn't matter to iqtree, but important for mrbayes
 * concatenate alignments with missing sequences replaced by ??s
+* concatenated alignment (concat.fasta) available in github
 
 ## in terminal, use iqtree
 
