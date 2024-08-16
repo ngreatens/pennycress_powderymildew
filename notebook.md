@@ -28,20 +28,7 @@ for file in *fna; do muscle -align $file -output $(basename $file _nocomments.fn
 cat *aligned.fasta >> alignment.fasta
 ```
 
-* manually edit seqs as needed to correct for obvious misalignments. in this case, I only removed basepairs that were trailing long after the sequences. e.g. I would remove the last c here.
-
-```
->OR427778.1
-ACTGTTGTGGAGCCCTACAACGCAACCCTTTCTGTTCATCAACTTGTCGAAAACTCTGACGAGACTTTCTGTATTGACAA
-TGAAGCACTCTATGAAATATGTATGAGAACTTTAAAGCTCTCGAATCCATCTTATGGTGATCTCAATCATTTGGTATCTG
-CTGTCATGTCAGGTGTAACAACTTGTCTTCGTTTCCCAGGTCAACTCAACTCAGATCTTAGAAAACTGGCGGTTAACATG
-GTTCCATTTCCTCGT-----------------------------------------------------------------
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
--------------------------------------------C
-```
+* manually edit seqs as needed to correct for obvious misalignments, especially near end of file. uncorrected and corrected alignments will be available in github.
 * also replace gaps in our ITS, LSU segment with ?s
 * also trim alignments where only one sequence has data
 
