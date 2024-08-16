@@ -7,7 +7,7 @@
 * download seqs into files: its.fasta, btub.fasta, etc.
 * manually combine our ITS + LSU, connect by Ns,  to correct aligment later and replace gapwith ??s
 
-## in Scinet terminal, using bioawk, muscle
+## in terminal, using bioawk, muscle
 
 * download seqs into files: its.fasta, btub.fasta, etc.
 * remove comments
@@ -45,13 +45,13 @@ GTTCCATTTCCTCGT-----------------------------------------------------------------
 * also replace gaps in our ITS, LSU segment with ?s
 * also trim alignments where only one sequence has data
 
-## in r
+## in r studio
 
 run alignment through custom r script (concat.r) to: 
 * change dashes to ?s when on beginning or end of sequences. Doesn't matter to iqtree, but important for mrbayes
 * concatenate alignments with missing sequences replaced by ??s
 
-## in scinet again, use iqtree
+## in terminal, use iqtree
 
 * get partitions file with align_summary table output from r script
 * use iqtree with partitions, best model as estimated by modelfinder within iqtree, and 1000 bootstraps
