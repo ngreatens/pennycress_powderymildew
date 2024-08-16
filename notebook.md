@@ -49,6 +49,9 @@ iqtree2 -s concat.fasta -p partitions.nex -m MFP+MERGE -B 1000
 
 ## format tree in ggtree
 
+* formatted in ggtree. necessary files in github
+
+
 
 
 
