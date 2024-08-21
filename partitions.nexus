@@ -1,9 +1,0 @@
-#nexus
-begin sets;
-	charset ITS_LSU = 1-1143;
-	charset CAM = 1144-1429;
-	charset GADPH = 1430-1735;
-	charset GS = 1736-2189;
-	charset RPB2 = 2190-2960;
-	charset TUB2 = 2961-3644;
-end;
