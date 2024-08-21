@@ -1,0 +1,21 @@
+Sequence_ID	Collected_by	Collection_date	Country	isolation_source	host	Specimen_voucher	Fwd_primer_name	Fwd_primer_seq	Rev_primer_name	Rev_primer_seq	Lat_Lon
+MIN984734_rpb2	Julia Zhang	Mar-23	USA	greenhouse live plant	Thlaspi arvense	MIN984734	PmRpb2_4	GCAAGCTCAACTGCTGGTG	PMRpb2_6R	TCCAGCGATGTGCTGTTGG	"44.9876, -93.1815"
+MIN984734_gs	Julia Zhang	Mar-23	USA	greenhouse live plant	Thlaspi arvense	MIN984734	GSPM2	CCAATCAGTTACTGTTTGTTCCC	GSPM3R	GGACTTCCTGATATTATGCC	"44.9876, -93.1815"
+MIN984734_gadph	Julia Zhang	Mar-23	USA	greenhouse live plant	Thlaspi arvense	MIN984734	PMGAPDH1	GGAATGGCTATGCGTGTACC	PMGAPDH3R	CCCCATTCGTTGTCGTACCATG	"44.9876, -93.1815"
+MIN984734_cam	Julia Zhang	Mar-23	USA	greenhouse live plant	Thlaspi arvense	MIN984734	PMCAM1	CTTTGCATCATGAGTTGGAC	PMCAM4R	GGCTCGAAAAATGAAAGATACCG	"44.9876, -93.1815"
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											

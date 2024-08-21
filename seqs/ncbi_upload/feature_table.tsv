@@ -1,0 +1,24 @@
+>Feature MIN984734_rpb2
+<1	>735	gene
+			gene	rpb2
+1	735	cds
+			product	RNA polymerase II subunit b2
+>Feature MIN984734_gs
+<1	>433	gene
+			gene	gs
+1	433	cds
+			product glutamine synthetase
+>Feature MIN984734_gadph
+<1	>197	gene
+			gene	gadph
+1	61	cds
+109	197
+			product glyceraldehyde-3-phosphate dehydrogenase
+			codon_start 1
+>Feature MIN984734_cam
+<1	>259	gene
+			gene	cam
+1	177	cds
+230	259
+			product	calmodulin
+			codon_start 3
